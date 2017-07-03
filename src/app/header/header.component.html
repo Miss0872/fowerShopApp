@@ -1,0 +1,14 @@
+<div class="header">
+  <div class="head_01_1"><a href="index.html"><img src="../../assets/img/index-img/手机端9万芳-首1页_01.gif"></a></div>
+    <div class="container">
+      <nav class="top-nav">
+					<ul class="top-nav">
+						<li *ngFor="let nav of navs" [class.active]="currentNavId == nav.id"><a href="javascript:;" class="scroll" (click)="navClick(nav)">{{nav.name}}<span></span></a></li>
+				  </ul>
+			  <a href="javascript:;" id="pull" style=" width:6%; float:right;margin: 0.7vmin 2vmin 0 0;"><img src="../../assets/img/index-img/手机端9万芳-首页-04_03.gif" title="menu" /></a>
+		  </nav>			
+	  <div class="clearfix"></div>
+	</div>
+</div> 
+   
+<div class="clearfix"></div><!--清除浮动-->

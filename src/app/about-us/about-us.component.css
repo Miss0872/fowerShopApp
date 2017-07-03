@@ -1,0 +1,33 @@
+.head_04{ max-width:640px; display:block;}
+.head_041,.head_042,.head_043{ width:28%; float:left; }
+.head_041{ margin-left:3%; padding-top:10%; padding-bottom:10%;}
+.head_042{ margin-left:5%; padding-top:10%; padding-bottom:10%;}
+.head_043{ margin-left:5%; padding-top:10%; padding-bottom:10%;}
+
+.zhong_01{ max-width:640px; display:block;}
+.biaoti{ text-align:center; background:#767676; color:#FFFFFF;}
+.gang{ border-top:3px solid #ed5561; border-bottom:2px solid #ed5561; height:6px; max-width:22px;background:#767676;}
+.wen{ text-indent:6%; padding:3% 4% 2% 4%; background:#767676; color:#FFFFFF;}
+
+.zhong_02{ max-width:640px; display:block;}
+.biaoti2{ text-align:center; color:#646464;}
+.gang2{ border-top:3px solid #ed5561; border-bottom:2px solid #ed5561; height:6px; max-width:22px; }
+.wen2{ text-indent:6%; padding:3% 4% 2% 4%;  color:#646464;}
+
+.wei{ max-width:640px; display:block;}
+.biaoti3{ text-align:center;}
+.gang3{ border-top:3px solid #ed5561; border-bottom:2px solid #ed5561; height:6px; max-width:22px;}
+
+.wei_01{ max-width:640px; display:block;}
+.wei_011,.wei_012,.wei_013{position:absolute;}
+.wei_011{ width:25%; margin-left:5%; float:left; margin-top:2.3%;}
+.wei_012{ width:25%; margin-left:36%; float:left; margin-top:2.3%;}
+.wei_013{ width:25%; margin-left:67%; float:left; margin-top:2.3%;}
+
+
+.wei_02{ max-width:640px; display:block; margin-top:15%; height:50px; background:#767676;}
+.wei_021,.wei_022,.wei_023{ width:5%; float:left;}
+.wei_021{ margin-left:30%;}
+.wei_022{ margin-left:26%;}
+.wei_023{ margin-left:26%;}
+.wei_03{ text-indent:6%; padding:7% 4% 2% 4%; background:#767676; color:#FFFFFF;}

@@ -1,0 +1,27 @@
+.more{
+	margin: 2vmin 0 0 0;
+	background-color: #cccccc;
+	width: 100%;
+	padding-bottom: 5vmin;
+}
+.more .title{
+	margin: 0 0 3vmin 0;
+}
+.more .more_01,.more .more_02,.more .more_03,.more .more_04{
+	width: 45%;
+	float: left;
+	margin: 3vmin 0 0 3.5vmin;
+}
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 3px;
+	right: 3px;
+	overflow: hidden;
+	width: 60px;
+	height: 60px;
+	border: none;
+	text-indent: 100%;
+	background:url(../../assets/img/TOP.png) no-repeat  ;
+} 

@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FlowerShopApp</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="./assets/css/style.css" rel='stylesheet' type='text/css' />
+</head>
+<body>
+  <app-root></app-root>
+</body>
+<script>
+			$(function() {
+			var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuLi 		= $('nav ul li');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+				$(menuLi).on('click', function() {
+					menu.slideToggle();
+				});
+			});
+</script>
+<script>
+			$(".Basic").click(function(){
+          $(".Basicont").show();
+          $(".us_01").hide();
+        })
+        $("#us").click(function(){
+          $(".Basicont").hide();
+          $(".us_01").show();
+  		 })
+</script>
+		<script>
+
+			
+	window.onload=function(){
+       var x=document.getElementById("all");
+       var n=document.getElementById("all2");
+       var y=document.getElementsByName("box");
+           //全选
+         x.onchange=function(){
+            for(var i=0;i<y.length;i++){
+               y[i].checked=x.checked; 
+
+            }  
+         }
+           //反选
+         n.onchange=function(){
+           for(var i=0;i<y.length;i++){
+				if(y[i].checked==true){	  
+				   y[i].checked=false;
+							  
+				}else{
+                  y[i].checked=true;
+                }
+           }  
+        }
+     }
+		</script>
+
+		    <script type="text/javascript">
+                $(function () {
+                    var t = $("#sy_num_gid1");
+                    $("#sy_plus_gid1").click(function () {
+                        t.val(parseInt(t.val()) + 1)
+                        setTotal(); GetCount();
+                    })
+                    $("#sy_minus_gid1").click(function () {
+                        if(t.val()>0){
+                            t.val(parseInt(t.val()) - 1)
+                            setTotal(); GetCount();
+                        }
+                    })
+                    function setTotal() {
+                        $("#pay").html((parseInt(t.val()) * 1314).toFixed(2));
+                        var y=document.getElementsByName("box");
+                        if(y.checked == true){
+                            $("#payy").html((parseInt(t.val()) * 1314).toFixed(2)); 
+                        }else{
+                            return;
+                        }
+                    }
+                    setTotal();
+                })
+            </script>
+    <script type="text/javascript">        
+            $(".Basic").click(function(){
+          $(".Basicont").show();
+          $(".us_01").hide();
+        })
+        $("#us").click(function(){
+          $(".Basicont").hide();
+          $(".us_01").show();
+        })
+    </script>
+
+    <script>
+        $(".city-list").citySelect({
+            prov: "",
+            city: "",
+            dist: "",
+            nodata: "none"
+        });
+    </script>    
+</html>

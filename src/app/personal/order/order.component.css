@@ -1,0 +1,23 @@
+/*<!-- 头部3 -->*/
+.head_03{ max-width:640px; display:block;height: 15vmin;}
+.head_031{ background:#5f5f5f; float:left; width:3%; display:block; margin:4% 0 0 4%;}
+.head_031 a { color:#FFFFFF; }
+.head_032{ background:#5f5f5f; font-size:140%; color:#FFFFFF; padding:3% 0 2% 10%;}
+
+.zhong_01{ max-width:640px; display:block; border:1px solid #b4b4b4; margin:3% 3% 0 3%;}
+.zhong_011{ display:block;}
+.zhong_011 ul li { float:left;}
+.zhong_011 ul .li_01{ margin-left:3%}
+.zhong_011 ul .li_01 b{ font-size:80%}
+.zhong_011 ul .li_02{ color:#b4b4b4}
+.zhong_011 ul .li_03{ margin-left:19%}
+.zhong_011 ul .li_03 b{ font-size:80%}
+.zhong_011 ul .li_04{ color:#b4b4b4; font-size:90%}
+.zhong_012{ width:35%; margin:3% 0 3% 2%; display:block; float:left;}
+.zhong_013{ display:block; max-width:170px; float:right; font-size:70%; margin:3% 3% 0 0;}
+.zhong_013 ul .li_01{ font-size:130%}
+.zhong_013 ul .li_02{ margin-top:2%}
+.zhong_013 ul .li_03{ color:#b4b4b4; margin:3% 0 3% 0;}
+.zhong_013 ul .li_04{ color:#ed5561; float:left;}
+.zhong_013 ul .li_05{ color:#ed5561; float:left; margin-left:25%}
+.zhong_014{ display:block; margin-top:50%; margin-left:69%; margin-bottom:2%; font-size:70%; color:#808080;}
